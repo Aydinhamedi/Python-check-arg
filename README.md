@@ -35,8 +35,8 @@ args = ['-v', '-f', 'file.txt']
 print(check_arg(args, 'v'))  # Returns: True
 
 # Example 2: Get the string after '-f' in the argument list
-args = ['-v', '-f', 'file.txt']
-print(check_arg(args, 'f', return_arg=True))  # Returns: 'file.txt'
+args = ['-v', '-f', '-z12']
+print(check_arg(args, 'f', return_arg=True))  # Returns: '12'
 
 # Example 3: Check for an argument that doesn't exist in the list
 args = ['-v', '-f', 'file.txt']
