@@ -34,7 +34,7 @@ Note: If the `bool_OUTPUT_ONLY` parameter is set to True, the function will retu
 args = ['-v', '-f', 'file.txt']
 print(check_arg(args, 'v'))  # Returns: True
 
-# Example 2: Get the string after '-f' in the argument list
+# Example 2: Get the string after '-z' in the argument list
 args = ['-v', '-f', '-z12']
 print(check_arg(args, 'z', return_arg=True))  # Returns: '12'
 
