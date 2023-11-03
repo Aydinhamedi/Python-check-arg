@@ -1,4 +1,6 @@
 # Python-check-arg
+<img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"/>
+
 The `check_arg` function is a handy Python code snippet that checks if a specific argument exists in a list of arguments. It's a reusable piece of code that you can easily integrate into your projects.
 
 ## Function Signature
