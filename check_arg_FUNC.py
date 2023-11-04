@@ -1,4 +1,4 @@
-def check_arg(arg_list: list, arg_str: str, return_arg: bool = False, bool_OUTPUT_ONLY: bool = False): #TODO USE check_arg
+def check_arg(arg_list: list, arg_str: str, return_arg: bool = False, bool_OUTPUT_ONLY: bool = False): 
     """
     This function checks if a specific argument exists in a list of arguments.
 
